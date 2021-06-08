@@ -1,0 +1,33 @@
+{
+  "name": "cypress-graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "cypress:open": "cypress open",
+      "cypress:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pamelaandrade2/cypress-graphql-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pamelaandrade2/cypress-graphql-server/issues"
+  },
+  "homepage": "https://github.com/pamelaandrade2/cypress-graphql-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "graphql-playground-middleware-express": "^1.7.22",
+    "mongodb": "^3.6.9",
+    "mongodb-memory-server": "^6.9.6"
+  },
+  "devDependencies": {
+    "cypress": "^7.5.0"
+  }
+}
