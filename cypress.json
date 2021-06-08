@@ -1,5 +1,5 @@
 {
     "video": false,
-    "baseURL": "https://cypress-graphql-server.herokuapp.com",
+    "baseUrl": "https://cypress-graphql-server.herokuapp.com",
     "reporter": "nyan"
 }
